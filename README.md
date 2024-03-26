@@ -46,6 +46,14 @@
 - `CardView` обрабатывает визуализацию и пользовательские действия с картами, передавая информацию о действиях обратно в `CardGame`.
 
 ## Автор
-
 Самилык Анастасия БПИ229
+
+## Вид игры
+![image](https://github.com/asamilyk/Unity-Lab2/assets/61018491/dd03ffff-e74b-4634-843f-5c59cdcfda19)
+![image](https://github.com/asamilyk/Unity-Lab2/assets/61018491/bd72341f-6a80-4d5e-b1b8-73f7bb12d56f)
+![image](https://github.com/asamilyk/Unity-Lab2/assets/61018491/20d997a5-9b22-4899-bdc3-8d24103fd492)
+![image](https://github.com/asamilyk/Unity-Lab2/assets/61018491/36637104-967b-428b-bd31-06de9b06d5dd)
+
+
+
 

@@ -70,9 +70,10 @@ namespace CardGame
                     return new Vector2(siblingIndex * offset.x, cardOffset.y);
                 case CardStatus.Deleted:
                     return new Vector2(0, cardOffset.y * siblingIndex);
-                default:
-                    throw new ArgumentOutOfRangeException(nameof(status), status, null);
+                
             }
+
+            return new Vector2();
         }
 
     }

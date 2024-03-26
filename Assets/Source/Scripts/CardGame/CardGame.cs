@@ -74,6 +74,11 @@ namespace CardGame
             _cardDictionary[instance] = view;
         }
         
+        /// <summary>
+        /// Changing card Layout
+        /// </summary>
+        /// <param name="card"></param>
+        /// <param name="layoutId"></param>
         private void MoveToLayout(CardInstance card, int layoutId)
         {
             int temp = card.LayoutId;
@@ -85,6 +90,10 @@ namespace CardGame
             RecalculateLayout(temp);
         }
 
+        /// <summary>
+        /// moving card to centre layout
+        /// </summary>
+        /// <param name="card"></param>
         public void MoveToCenter(CardInstance card)
         {
             int temp = card.LayoutId;
@@ -94,6 +103,10 @@ namespace CardGame
             RecalculateLayout(temp);
         }
         
+        /// <summary>
+        /// moving card to basket layout
+        /// </summary>
+        /// <param name="card"></param>
         public void MoveToTrash(CardInstance card)
         {
             int temp = card.LayoutId;
